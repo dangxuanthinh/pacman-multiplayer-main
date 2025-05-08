@@ -28,14 +28,12 @@ Khi tất cả các player đều đã ấn nút Ready thì chủ room/host có 
  
 - Game Screenshots:
   
-  ![image](https://github.com/user-attachments/assets/6552f3d6-5fd0-4e20-bddb-6c70121ba36d)
   ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
   ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
   ![image](https://github.com/user-attachments/assets/74465d21-4b04-47d8-9b1b-379b07ba9e33)
   ![image](https://github.com/user-attachments/assets/b299b264-d7fb-4ac7-8c5b-2d76b592dde0)
   ![image](https://github.com/user-attachments/assets/6bad3512-844f-471e-bf58-ad1b695e0510)
   ![image](https://github.com/user-attachments/assets/31696f23-8e4b-49e7-b34a-e2ad3a9a8731)
-  ![image](https://github.com/user-attachments/assets/39701664-1f52-4a44-8526-ce39764ddcca)
 
 
 
