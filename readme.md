@@ -27,6 +27,7 @@ Khi tất cả các player đều đã ấn nút Ready thì chủ room/host có 
 - Khi đang chơi nếu player thỏa điều kiện các achievement thì sẽ có một UI pop up báo hiệu achievement complete
  
 - Game Screenshots:
+  
   ![image](https://github.com/user-attachments/assets/6552f3d6-5fd0-4e20-bddb-6c70121ba36d)
   ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
   ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
