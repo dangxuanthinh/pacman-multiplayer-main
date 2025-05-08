@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/6552f3d6-5fd0-4e20-bddb-6c70121ba36d)Project Pacman Multiplayer 
-
 Note: Do đây là game multiplayer nên sẽ cần phải chạy nhiều build cùng lúc để chơi multiplayer, có thể chơi single player được bằng cách tạo lobby rồi vào chơi như bình thường, có thể bật một lúc nhiều build để chạy
  hoặc là đưa bản build cho một người khác để 2 người cùng chơi chung với nhau (khuyến khích chơi với người khác)
  để bật một lúc nhiều build, có thể chạy một build bằng Unity Editor, build còn lại thì chạy file Pac Adventure.exe, hoặc
@@ -28,6 +26,7 @@ Khi tất cả các player đều đã ấn nút Ready thì chủ room/host có 
 - Khi đang chơi nếu player thỏa điều kiện các achievement thì sẽ có một UI pop up báo hiệu achievement complete
 
   Game Screenshots:
+  ![image](https://github.com/user-attachments/assets/6552f3d6-5fd0-4e20-bddb-6c70121ba36d)Project Pacman Multiplayer 
   ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
   ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
   ![image](https://github.com/user-attachments/assets/74465d21-4b04-47d8-9b1b-379b07ba9e33)
