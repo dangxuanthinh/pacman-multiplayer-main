@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4019654350009126067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8708313859341204964}
+  - component: {fileID: 8100851907600718601}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8708313859341204964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4019654350009126067}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8100851907600718601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4019654350009126067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf12a8c9468d4ad47864c642557c75ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: abc745f1d2390074e8474aa4db323f7a, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: PelletEaten
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 63752807c7064054ea06aac5a405aab8, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: PowerupPelletEaten
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 1cd714e327a72534b991031dc1b2fe15, type: 3}
+    loop: 1
+    stopOnGamePaused: 1
+    persistOnSceneLoad: 0
+    name: GhostScared
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 762c0ac083b44ce46a8c2aa8e6813c27, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: PacmanDie
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 7bf5bb8631f0b6c4696973006cec17d8, type: 3}
+    loop: 1
+    stopOnGamePaused: 1
+    persistOnSceneLoad: 0
+    name: BackgroundMusic
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: 4578095392142252202, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 56a2beb12c216ef4786f67329ecfdcc3, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: ButtonPressed
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 64d9be76674c74f469b5e5791fca4d2f, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: PurchaseComplete
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: b9b941a372ac58647badee0a6c28e8f2, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: GhostEaten
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: cb508bf636ff9f344addc2a4d0e195c1, type: 3}
+    loop: 1
+    stopOnGamePaused: 1
+    persistOnSceneLoad: 0
+    name: LazerPowerup
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 49c5356549fd6db489ed1880cc0b23aa, type: 3}
+    loop: 1
+    stopOnGamePaused: 1
+    persistOnSceneLoad: 0
+    name: FireRingPowerup
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 2320bd2932a7c4e4ba573b66fa7bfa9f, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: GameOver
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 2b21d7e9b0993a34a829dc10d1d97d25, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: Victory
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: dee91358dedd288418a2ce01b74dd636, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: Shop
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: 4578095392142252202, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 4ad8ccc064aa8894bbd476ffa1500afb, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: SpeedBoost
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 1d64b03a620e41943a99c1dfe90c31fc, type: 3}
+    loop: 1
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 1
+    name: LobbyMusic
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: 4578095392142252202, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: 8b0be3834370a2546bba169ba4b9d954, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: PelletRespawnerEaten
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: dc870ad68246c2f478e6eb280a329f0a, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: AchievementComplete
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
+  - clip: {fileID: 8300000, guid: cc284328204b0a44d86aec9312270170, type: 3}
+    loop: 0
+    stopOnGamePaused: 0
+    persistOnSceneLoad: 0
+    name: TimeStop
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+    outputGroup: {fileID: -2255996313903055311, guid: 6ca43e938e181964c8def79b609d0e06,
+      type: 2}
