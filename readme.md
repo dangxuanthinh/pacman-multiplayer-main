@@ -25,8 +25,8 @@ Khi tất cả các player đều đã ấn nút Ready thì chủ room/host có 
 - Trong chế độ Survival, sẽ giống như Classic nhưng sẽ phải sống sót trong 4 phút thì mới thắng, lâu lâu ở giữa map sẽ spawn quả dâu, khi player chạm vào thì sẽ respawn hết tất cả pellet đã ăn trên map
 - Mỗi player có 3 mạng, nếu bị ma bắt 3 lần thì Game Over
 - Khi đang chơi nếu player thỏa điều kiện các achievement thì sẽ có một UI pop up báo hiệu achievement complete
-
-  Game Screenshots:
+ 
+- Game Screenshots:
   ![image](https://github.com/user-attachments/assets/6552f3d6-5fd0-4e20-bddb-6c70121ba36d)
   ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
   ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
