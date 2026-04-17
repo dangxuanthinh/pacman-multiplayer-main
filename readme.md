@@ -1,44 +1,67 @@
-Project Pacman Multiplayer 
-Note: Do đây là game multiplayer nên sẽ cần phải chạy nhiều build cùng lúc để chơi multiplayer, có thể chơi single player được bằng cách tạo lobby rồi vào chơi như bình thường, có thể bật một lúc nhiều build để chạy
- hoặc là đưa bản build cho một người khác để 2 người cùng chơi chung với nhau (khuyến khích chơi với người khác)
- để bật một lúc nhiều build, có thể chạy một build bằng Unity Editor, build còn lại thì chạy file Pac Adventure.exe, hoặc
- là chạy file Pac Adventure.exe nhiều lần để bật một lúc nhiều cửa sổ game
+Pacman Multiplayer Project Notes:
 
-Lúc vào được game sẽ vào scene MainMenu, trong scene có 3 tab, Achievements, Multiplayer, Options
-- Tab Achievement: sẽ hiện cửa sổ hiện các achievement trong game, khi chơi và thỏa điều kiện thì achievement sẽ được đánh dấu là hoàn thành
-- Tab Options: chứa 2 slider để tăng/giảm âm lượng game
-- Tab Multiplayer: ấn vào sẽ hiện cửa sổ Login, sau khi tạo tài khoản và login thì sẽ được chuyển tới scene Lobby, trong scene Lobby player có thể tự tạo room hoặc join room của
-người khác
+Since this is a multiplayer game, you’ll need to run multiple builds at the same time to play multiplayer. You can still play in single-player mode by creating a lobby and playing normally. To run multiple instances, you can either open several builds at once or share the build with another person so you can play together (playing with others is recommended).
 
-* Khi tạo room có thể điều chỉnh tên room, chọn map, chỉnh room thành public/private, điều chỉnh chế độ chơi giữa Classic và Survival, chỉnh độ khó AI, 
-độ khó AI càng cao thì 4 con ma sẽ càng hung dữ và chạy lẹ hơn (nếu không có kinh nghiệm chơi Pacman thì nên chọn AI là Easy để dễ test game hơn)
+To run multiple instances:
 
-Sau khi join room hoặc tạo room sẽ được chuyển tới scene CharacterSelect, trong đây có thể chỉnh model nhân vật, player khác khi join room cũng sẽ hiện trong scene
-Khi tất cả các player đều đã ấn nút Ready thì chủ room/host có thể ấn nút Start Game để bắt đầu chơi game
+* You can run one build in the Unity Editor, and another by launching the Pac Adventure.exe file.
+* Or you can open Pac Adventure.exe multiple times to run several game windows simultaneously.
 
-* Khi ở trong scene CharacterSelect hoặc trong scene chơi game, nếu chủ room/host tắt game/disconnect thì tất cả client khác đều sẽ bị disconnect
+Game Flow:
 
-* Cách chơi:
-- Di chuyển bằng mũi tên hoặc WASD
-- Mục tiêu là ăn thật nhiều pellet và các power-up và tránh bị 4 con ma bắt
-- Trong chế độ Classic, chỉ cần ăn hết pellet trên map là thắng
-- Trong chế độ Survival, sẽ giống như Classic nhưng sẽ phải sống sót trong 4 phút thì mới thắng, lâu lâu ở giữa map sẽ spawn quả dâu, khi player chạm vào thì sẽ respawn hết tất cả pellet đã ăn trên map
-- Mỗi player có 3 mạng, nếu bị ma bắt 3 lần thì Game Over
-- Khi đang chơi nếu player thỏa điều kiện các achievement thì sẽ có một UI pop up báo hiệu achievement complete
- 
-- Game Screenshots:
-  
-  ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
-  ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
-  ![image](https://github.com/user-attachments/assets/74465d21-4b04-47d8-9b1b-379b07ba9e33)
-  ![image](https://github.com/user-attachments/assets/b299b264-d7fb-4ac7-8c5b-2d76b592dde0)
-  ![image](https://github.com/user-attachments/assets/6bad3512-844f-471e-bf58-ad1b695e0510)
-  ![image](https://github.com/user-attachments/assets/31696f23-8e4b-49e7-b34a-e2ad3a9a8731)
+When you start the game, you’ll enter the MainMenu scene, which has 3 tabs: Achievements, Multiplayer, Options.
 
+Achievements Tab:
+Displays all achievements in the game. When you meet the required conditions during gameplay, the achievement will be marked as completed.
 
+Options Tab:
+Contains 2 sliders to adjust the game’s volume.
 
+Multiplayer Tab:
+Opens a Login window. After creating an account and logging in, you’ll be taken to the Lobby scene. In the Lobby, players can create a room or join an existing one.
 
+Room Settings:
 
+When creating a room, you can:
 
+* Set the room name
+* Choose a map
+* Set the room to public or private
+* Select game mode: Classic or Survival
+* Adjust AI difficulty (higher difficulty makes the 4 ghosts more aggressive and faster)
+  If you're new to Pacman, it's recommended to set AI to Easy for testing.
 
+After creating or joining a room, you’ll enter the CharacterSelect scene:
 
+* You can customize your character model
+* Other players in the room will also appear here
+* When all players press Ready, the host can press Start Game to begin
+
+Important Note:
+If the host disconnects or closes the game while in the CharacterSelect scene or during gameplay, all connected clients will be disconnected.
+
+Controls:
+
+* Move using Arrow Keys or WASD
+
+Gameplay Objective:
+
+* Eat as many pellets and power-ups as possible
+* Avoid being caught by the 4 ghosts
+
+Game Modes:
+
+Classic Mode:
+Eat all pellets on the map to win.
+
+Survival Mode:
+Similar to Classic, but you must survive for 4 minutes to win.
+Occasionally, a strawberry will spawn in the center of the map. When collected, it respawns all previously eaten pellets.
+
+Lives System:
+
+* Each player has 3 lives
+* Getting caught by ghosts 3 times results in Game Over
+
+Achievements During Gameplay:
+If a player meets the conditions for an achievement while playing, a UI popup will appear indicating the achievement is completed.
