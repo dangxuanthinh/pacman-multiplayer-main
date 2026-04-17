@@ -65,3 +65,11 @@ Lives System:
 
 Achievements During Gameplay:
 If a player meets the conditions for an achievement while playing, a UI popup will appear indicating the achievement is completed.
+- Game Screenshots:
+  
+  ![image](https://github.com/user-attachments/assets/86645f68-97fc-46ab-ba1b-87a77546c457)
+  ![image](https://github.com/user-attachments/assets/8f558250-c9ca-41ca-82ab-39480fb6ada8)
+  ![image](https://github.com/user-attachments/assets/74465d21-4b04-47d8-9b1b-379b07ba9e33)
+  ![image](https://github.com/user-attachments/assets/b299b264-d7fb-4ac7-8c5b-2d76b592dde0)
+  ![image](https://github.com/user-attachments/assets/6bad3512-844f-471e-bf58-ad1b695e0510)
+  ![image](https://github.com/user-attachments/assets/31696f23-8e4b-49e7-b34a-e2ad3a9a8731)
